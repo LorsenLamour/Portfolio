@@ -1,0 +1,53 @@
+/*  <!-- Lamour Lorsen (c) - October-2022-19 -->
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+#navbar{
+    float: right;
+    background-color: blue;
+    width: 100%;
+    
+}
+
+.container{
+    
+    margin: auto;
+   float: right;
+    overflow: auto;
+    padding: 20px;
+}
+.container ul li {
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li{
+    text-decoration: none;
+    list-style: none;  
+}
+.image{
+  
+    background-image: url("./im");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+    font-size: 20px;
+}
